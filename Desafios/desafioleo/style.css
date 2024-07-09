@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: var(--corprincipal);
+    background-image: url(imagens/wallpaper001.jpg);
 }
 
 :root {
