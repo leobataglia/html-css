@@ -11,6 +11,10 @@
 
 body {
     background-image: url(imagens/wallpaper001.jpg);
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: 300px 300px;
+    
 }
 
 :root {
