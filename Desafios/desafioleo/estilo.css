@@ -1,0 +1,97 @@
+@charset 'UTF-8';
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+header {
+    background-image: url(imagens/wallpaper006.jpg);
+    color: dimgrey;
+    padding-top: 50px;
+}
+
+header > h1 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+nav {
+    padding-bottom: 20px;
+}
+
+header > nav > a {
+    color: rgb(58, 58, 56);
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 4px;
+}
+
+nav > a:hover {
+    background-color: rgba(167, 158, 147, 0.205);
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    padding: 7px;
+    border-radius: 7px;
+}
+
+.texto > p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    padding: 10px 30px 10px 30px;
+    background-color: rgba(0, 0, 0, 0.562);
+    max-width: 50%;
+    line-height: 1.3em;
+    margin: auto;
+    border-radius: 30px;
+    margin-top: 0px;
+}
+
+.texto {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+section > p {
+    width: 600px;
+    
+}
+
+section#img1 {
+    background-image: url(imagens/wallpaper005.jpg);
+    
+}
+
+section#img2 {
+    background-image: url(imagens/wallpaper002.jpg);
+}
+
+section#img3 {
+    background-image: url(imagens/wallpaper006.jpg);
+}
+
+section#img4 {
+    background-image: url(imagens/wallpaper001.jpg);
+    background-repeat: repeat;
+    background-size: 300px 300px;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    padding: 10px;
+}
