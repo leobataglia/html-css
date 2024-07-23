@@ -6,104 +6,77 @@
 }
 
 body {
-    max-width: 100%;
-    max-height: 100%;
+    background-color: grey;
 }
 
 header {
-    background-image: url(imagens/wallpaper006.jpg);
-    color: dimgrey;
-    padding-top: 50px;
-}
-
-header > h1 {
+    background-color: #202f57;
+    color: white;
     text-align: center;
-    padding-bottom: 30px;
-}
-nav {
-    padding-bottom: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
-header > nav > a {
-    color: rgb(58, 58, 56);
-    text-decoration: none;
-    margin-right: 10px;
-    margin-left: 10px;
-    padding: 4px;
+div {
+    padding-top: 120px;
+    padding-bottom: 70px;
 }
 
-nav > a:hover {
-    background-color: rgba(167, 158, 147, 0.205);
-    text-decoration: underline;
-    color: rgb(0, 0, 0);
-    padding: 7px;
-    border-radius: 7px;
-}
-
-.texto > p {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 25px;
-    padding: 10px 30px 10px 30px;
-    background-color: rgba(0, 0, 0, 0.562);
-    max-width: 50%;
-    line-height: 1.3em;
-    margin: auto;
-    border-radius: 30px;
-    margin-top: 0px;
-}
-
-.texto {
-    background-attachment: fixed;
+div#amarelo {
+    background-image: url(imagens/pikachu.png);
+    background-position: right bottom;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    background-size: 28%;
 }
 
-section {
-    padding-top: 40px;
-    padding-bottom: 20px;
+.amarelo2 {
+
+    background-color: #FFD622;
 }
 
-section > p {
-    width: 600px;
-    
+div#vermelho {
+    background-image: url(imagens/charmander.png);
+    height: 800px;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-section#img1 {
-    background-image: url(imagens/wallpaper005.jpg);
-    
+.vermelho2 {
+    background-color: #F47932;
 }
 
-section#img2 {
-    background-image: url(imagens/wallpaper002.jpg);
+div#azul {
+    background-image: url(imagens/squirtle.png);
+    height: 800px;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-section#img3 {
-    background-image: url(imagens/wallpaper006.jpg);
+.azul2 {
+    background-color: #96D4D0;
 }
 
-section#img4 {
-    background-image: url(imagens/wallpaper001.jpg);
-    background-repeat: repeat;
-    background-size: 300px 300px;
+div#verde {
+    background-image: url(imagens/bulba.png);
+    height: 800px;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.verde2 {
+    background-color: #50d850;
 }
 
 footer {
-    color: white;
-    background-color: black;
+    background-color: #202f57;
+    padding: 20px;
+    color: #FFD622;
     text-align: center;
+    font-size: 1.7em;
     font-weight: bolder;
-    font-size: xx-large;
-    padding: 10px;
-}
-
-div#minhadiv {
-    width: 300px;
-    height: 300px;
-    background-color: red;
-    animation: mymove 5s infinite;
-}
-
-@keyframes mymove {
-    from {background-color:red;}
-    to {background-color: blue;}
 }
