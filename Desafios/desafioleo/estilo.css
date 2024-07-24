@@ -18,16 +18,12 @@ header {
     padding-bottom: 100px;
 }
 
-main {
-    margin: auto;
-    max-width: 100%;
-}
 
 div {
     padding-top: 120px;
     padding-bottom: 70px;
-    
-}
+ }
+
 
 div#amarelo {
     background-image: url(imagens/pikachu.png);
@@ -47,6 +43,7 @@ div#vermelho {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: #F47932;
+    background-size: cover;
 }
 
 
