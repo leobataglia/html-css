@@ -7,19 +7,26 @@
 
 body {
     background-color: grey;
+    min-height: 100vh;
 }
 
 header {
     background-color: #202f57;
     color: white;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 100px;
+}
+
+main {
+    margin: auto;
+    max-width: 100%;
 }
 
 div {
     padding-top: 120px;
     padding-bottom: 70px;
+    
 }
 
 div#amarelo {
@@ -27,26 +34,21 @@ div#amarelo {
     background-position: right bottom;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 500px;
-    background-size: 28%;
-}
-
-.amarelo2 {
-
+    height: 800px;
+    background-size: 600px 560px;
     background-color: #FFD622;
 }
 
+    
 div#vermelho {
     background-image: url(imagens/charmander.png);
     height: 800px;
     background-position: right center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-
-.vermelho2 {
     background-color: #F47932;
 }
+
 
 div#azul {
     background-image: url(imagens/squirtle.png);
@@ -54,23 +56,22 @@ div#azul {
     background-position: right center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-color: #96D4D0;
+    background-size: 600px 600px;
 }
 
-.azul2 {
-    background-color: #96D4D0;
-}
 
 div#verde {
     background-image: url(imagens/bulba.png);
     height: 800px;
-    background-position: right bottom;
+    background-position: right center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-color: #50d850;
+    background-size: 600px 600px;
+    
 }
 
-.verde2 {
-    background-color: #50d850;
-}
 
 footer {
     background-color: #202f57;
@@ -80,3 +81,4 @@ footer {
     font-size: 1.7em;
     font-weight: bolder;
 }
+
