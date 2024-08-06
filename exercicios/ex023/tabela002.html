@@ -22,7 +22,7 @@
         }
 
         thead, tfoot {
-            background-color: gray;
+            background-color: rgb(80, 79, 79);
             color: white;
         }
         .num {
@@ -33,6 +33,10 @@
             font-size: 1.5em;
             font-weight: bold;
             padding: 10px;
+            background-color: lightgray;
+        }
+
+        tbody > tr:nth-child(2n) {      /* EFEITO ZEBRADO PARA FICAR MAIS FÁCIL DE IDENTIFICAR DADOS NA TABELA - Pode colocar "even" para ficar par ou "odd" para ficar ímpar*/
             background-color: lightgray;
         }
     </style>
@@ -57,8 +61,8 @@
         </caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -173,7 +177,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num"><strong>168,206,005</strong></td>
             </tr>
         </tfoot>
