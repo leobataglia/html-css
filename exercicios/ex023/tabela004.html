@@ -29,15 +29,22 @@
     <table>
         <thead>
             <tr>
-                <th class="legendas">Grupo</th>
-                <th class="legendas">Nomes</th>
-                <th colspan="3" class="legendas">Filmes</th>
+                <th scope="col" class="legendas">Grupo</th>
+                <th scope="col" class="legendas">Nomes</th>
+                <th scope="colgroup" colspan="3" class="legendas">Filmes</th>
             </tr>
         </thead>
         
+        <tfoot>
+            <tr>
+                <th scope="row" colspan="4">Total</th>
+                <td>1000</td>
+            </tr>
+        </tfoot>
+
         <tbody>
             <tr>
-                <th rowspan="3" class="legendas">Mulheres</th>
+                <th scope="rowgroup" rowspan="3" class="legendas">Mulheres</th>
                 <td>Ana Maria Santos</td>
                 <td>Alien</td>
                 <td>Rambo</td>
@@ -59,7 +66,7 @@
             </tr>
             
             <tr>
-                <th rowspan="3" class="legendas">Homens</th>
+                <th scope="rowgroup" rowspan="3" class="legendas">Homens</th>
                 <td>Bruno Mendonça</td>
                 <td>Intocáveis</td>
                 <td>Amnésia</td>
