@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    height: 100dvh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+}
+
+ul li {
+    flex: 1;
+    display: flex;
+    transition: 1s;
+}
+
+ul li img {
+    width: 100%;
+    height: 100dvh;
+    object-fit: fill;
+}
+
+ul:hover li {
+    opacity: 0.4;
+}
+
+ul li:hover {
+    flex: 5;
+    opacity: 1;
+}
