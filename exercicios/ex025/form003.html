@@ -17,7 +17,22 @@
 
     <p>
         <label for="imedia">Média</label>
-        <input type="number" name="media" id="imedia" min="0" max="10" placeholder="0 a 10" step="0.5">
+        <input type="number" name="media" id="imedia" min="0" max="10" placeholder="0 a 10" step="0.1" value="5"> <!--Atributo novo STEP muito usado para fazer a média-->
+    </p>
+    <p>
+        <label for="imes">Período Letivo</label>
+        <input type="month" name="mes" id="imes" value="2024-09"> <!--Atributo novo, coloca um calendário-->
+    </p>
+
+    <p>
+        <label for="dia">Dia da Prova</label>
+        <input type="date" name="dia" id="idia" value="2024-11-12"><!--Atributo novo, coloca dia, mês e ano, também pode sugerir o dia que você quer, colocando o atributo value e a data separado por hífen.-->
+    </p>
+
+    <p>
+        <label for="hora">Horário da Prova</label>
+        <input type="time" name="hora" id="ihora">
+        <!--Atributo novo, permite colocar hora para a pessoa escolher.-->
     </p>
 
     <p>
